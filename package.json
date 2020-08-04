@@ -1,0 +1,37 @@
+{
+  "name": "truba",
+  "version": "0.0.1",
+  "description": "Transport gateway",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test/*.spec.js"
+  },
+  "keywords": [
+    "gateway",
+    "ngork",
+    "pipe",
+    "utilities"
+  ],
+  "author": "Taras Labiak <kissarat@gmail.com>",
+  "devDependencies": {
+    "mocha": "^7.0.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kissarat/truba.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kissarat/truba/issues"
+  },
+  "homepage": "https://github.com/kissarat/truba#readme"
+}
