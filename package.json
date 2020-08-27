@@ -24,7 +24,11 @@
     "lib": "lib",
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "auxiliary": "^0.1.5",
+    "uuid": "^8.3.0",
+    "yargs": "^15.4.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kissarat/truba.git"
